@@ -9,3 +9,6 @@ test:
 lint:
 	pep8 src/PackageName
 	pylint src/PackageName
+
+toc:
+	python $(DIR)/bin/update_readme_toc.py
