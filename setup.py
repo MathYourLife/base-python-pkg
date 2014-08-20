@@ -1,3 +1,4 @@
+import os
 import re
 try:
     from setuptools import setup
